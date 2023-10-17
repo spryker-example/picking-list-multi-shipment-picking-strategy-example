@@ -5,7 +5,7 @@
  * For full license information, please view the LICENSE file that was distributed with this source code.
  */
 
-namespace Spryker\Zed\PickingListMultiShipmentPickingStrategyExample\Communication\Plugin\PickingList;
+namespace SprykerExample\Zed\PickingListMultiShipmentPickingStrategyExample\Communication\Plugin\PickingList;
 
 use Generated\Shared\Transfer\PickingListCollectionTransfer;
 use Generated\Shared\Transfer\PickingListOrderItemGroupTransfer;
@@ -13,8 +13,8 @@ use Spryker\Zed\Kernel\Communication\AbstractPlugin;
 use Spryker\Zed\PickingListExtension\Dependency\Plugin\PickingListGeneratorStrategyPluginInterface;
 
 /**
- * @method \Spryker\Zed\PickingListMultiShipmentPickingStrategyExample\Business\PickingListMultiShipmentPickingStrategyExampleFacadeInterface getFacade()
- * @method \Spryker\Zed\PickingListMultiShipmentPickingStrategyExample\PickingListMultiShipmentPickingStrategyExampleConfig getConfig()
+ * @method \SprykerExample\Zed\PickingListMultiShipmentPickingStrategyExample\Business\PickingListMultiShipmentPickingStrategyExampleFacadeInterface getFacade()
+ * @method \SprykerExample\Zed\PickingListMultiShipmentPickingStrategyExample\PickingListMultiShipmentPickingStrategyExampleConfig getConfig()
  */
 class MultiShipmentPickingListGeneratorStrategyPlugin extends AbstractPlugin implements PickingListGeneratorStrategyPluginInterface
 {

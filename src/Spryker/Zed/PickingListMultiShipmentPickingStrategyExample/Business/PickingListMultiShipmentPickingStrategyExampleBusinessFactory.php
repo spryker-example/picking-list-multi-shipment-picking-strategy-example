@@ -5,22 +5,22 @@
  * For full license information, please view the LICENSE file that was distributed with this source code.
  */
 
-namespace Spryker\Zed\PickingListMultiShipmentPickingStrategyExample\Business;
+namespace SprykerExample\Zed\PickingListMultiShipmentPickingStrategyExample\Business;
 
 use Spryker\Zed\Kernel\Business\AbstractBusinessFactory;
-use Spryker\Zed\PickingListMultiShipmentPickingStrategyExample\Business\Generator\MultiShipmentPickingListGenerator;
-use Spryker\Zed\PickingListMultiShipmentPickingStrategyExample\Business\Generator\MultiShipmentPickingListGeneratorInterface;
-use Spryker\Zed\PickingListMultiShipmentPickingStrategyExample\Dependency\Facade\PickingListMultiShipmentPickingStrategyExampleToShipmentFacadeInterface;
-use Spryker\Zed\PickingListMultiShipmentPickingStrategyExample\Dependency\Service\PickingListMultiShipmentPickingStrategyExampleToShipmentServiceInterface;
-use Spryker\Zed\PickingListMultiShipmentPickingStrategyExample\PickingListMultiShipmentPickingStrategyExampleDependencyProvider;
+use SprykerExample\Zed\PickingListMultiShipmentPickingStrategyExample\Business\Generator\MultiShipmentPickingListGenerator;
+use SprykerExample\Zed\PickingListMultiShipmentPickingStrategyExample\Business\Generator\MultiShipmentPickingListGeneratorInterface;
+use SprykerExample\Zed\PickingListMultiShipmentPickingStrategyExample\Dependency\Facade\PickingListMultiShipmentPickingStrategyExampleToShipmentFacadeInterface;
+use SprykerExample\Zed\PickingListMultiShipmentPickingStrategyExample\Dependency\Service\PickingListMultiShipmentPickingStrategyExampleToShipmentServiceInterface;
+use SprykerExample\Zed\PickingListMultiShipmentPickingStrategyExample\PickingListMultiShipmentPickingStrategyExampleDependencyProvider;
 
 /**
- * @method \Spryker\Zed\PickingListMultiShipmentPickingStrategyExample\PickingListMultiShipmentPickingStrategyExampleConfig getConfig()
+ * @method \SprykerExample\Zed\PickingListMultiShipmentPickingStrategyExample\PickingListMultiShipmentPickingStrategyExampleConfig getConfig()
  */
 class PickingListMultiShipmentPickingStrategyExampleBusinessFactory extends AbstractBusinessFactory
 {
     /**
-     * @return \Spryker\Zed\PickingListMultiShipmentPickingStrategyExample\Business\Generator\MultiShipmentPickingListGeneratorInterface
+     * @return \SprykerExample\Zed\PickingListMultiShipmentPickingStrategyExample\Business\Generator\MultiShipmentPickingListGeneratorInterface
      */
     public function createMultiShipmentPickingListGenerator(): MultiShipmentPickingListGeneratorInterface
     {
@@ -31,7 +31,7 @@ class PickingListMultiShipmentPickingStrategyExampleBusinessFactory extends Abst
     }
 
     /**
-     * @return \Spryker\Zed\PickingListMultiShipmentPickingStrategyExample\Dependency\Facade\PickingListMultiShipmentPickingStrategyExampleToShipmentFacadeInterface
+     * @return \SprykerExample\Zed\PickingListMultiShipmentPickingStrategyExample\Dependency\Facade\PickingListMultiShipmentPickingStrategyExampleToShipmentFacadeInterface
      */
     public function getShipmentFacade(): PickingListMultiShipmentPickingStrategyExampleToShipmentFacadeInterface
     {
@@ -39,7 +39,7 @@ class PickingListMultiShipmentPickingStrategyExampleBusinessFactory extends Abst
     }
 
     /**
-     * @return \Spryker\Zed\PickingListMultiShipmentPickingStrategyExample\Dependency\Service\PickingListMultiShipmentPickingStrategyExampleToShipmentServiceInterface
+     * @return \SprykerExample\Zed\PickingListMultiShipmentPickingStrategyExample\Dependency\Service\PickingListMultiShipmentPickingStrategyExampleToShipmentServiceInterface
      */
     public function getShipmentService(): PickingListMultiShipmentPickingStrategyExampleToShipmentServiceInterface
     {
