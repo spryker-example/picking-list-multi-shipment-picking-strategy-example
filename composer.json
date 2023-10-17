@@ -1,5 +1,5 @@
 {
-    "name": "spryker/picking-list-multi-shipment-picking-strategy-example",
+    "name": "spryker-example/picking-list-multi-shipment-picking-strategy-example",
     "type": "library",
     "description": "PickingListMultiShipmentPickingStrategyExample module",
     "license": "MIT",
@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Spryker\\": "src/Spryker/"
+            "SprykerExample\\": "src/Spryker/"
         }
     },
     "autoload-dev": {
