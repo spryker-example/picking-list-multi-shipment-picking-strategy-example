@@ -5,7 +5,7 @@
  * For full license information, please view the LICENSE file that was distributed with this source code.
  */
 
-namespace Spryker\Zed\PickingListMultiShipmentPickingStrategyExample\Business\Generator;
+namespace SprykerExample\Zed\PickingListMultiShipmentPickingStrategyExample\Business\Generator;
 
 use ArrayObject;
 use Generated\Shared\Transfer\PickingListCollectionTransfer;
@@ -14,24 +14,24 @@ use Generated\Shared\Transfer\PickingListOrderItemGroupTransfer;
 use Generated\Shared\Transfer\PickingListTransfer;
 use Generated\Shared\Transfer\ShipmentGroupTransfer;
 use Generated\Shared\Transfer\StockTransfer;
-use Spryker\Zed\PickingListMultiShipmentPickingStrategyExample\Dependency\Facade\PickingListMultiShipmentPickingStrategyExampleToShipmentFacadeInterface;
-use Spryker\Zed\PickingListMultiShipmentPickingStrategyExample\Dependency\Service\PickingListMultiShipmentPickingStrategyExampleToShipmentServiceInterface;
+use SprykerExample\Zed\PickingListMultiShipmentPickingStrategyExample\Dependency\Facade\PickingListMultiShipmentPickingStrategyExampleToShipmentFacadeInterface;
+use SprykerExample\Zed\PickingListMultiShipmentPickingStrategyExample\Dependency\Service\PickingListMultiShipmentPickingStrategyExampleToShipmentServiceInterface;
 
 class MultiShipmentPickingListGenerator implements MultiShipmentPickingListGeneratorInterface
 {
     /**
-     * @var \Spryker\Zed\PickingListMultiShipmentPickingStrategyExample\Dependency\Facade\PickingListMultiShipmentPickingStrategyExampleToShipmentFacadeInterface
+     * @var \SprykerExample\Zed\PickingListMultiShipmentPickingStrategyExample\Dependency\Facade\PickingListMultiShipmentPickingStrategyExampleToShipmentFacadeInterface
      */
     protected PickingListMultiShipmentPickingStrategyExampleToShipmentFacadeInterface $shipmentFacade;
 
     /**
-     * @var \Spryker\Zed\PickingListMultiShipmentPickingStrategyExample\Dependency\Service\PickingListMultiShipmentPickingStrategyExampleToShipmentServiceInterface
+     * @var \SprykerExample\Zed\PickingListMultiShipmentPickingStrategyExample\Dependency\Service\PickingListMultiShipmentPickingStrategyExampleToShipmentServiceInterface
      */
     protected PickingListMultiShipmentPickingStrategyExampleToShipmentServiceInterface $shipmentService;
 
     /**
-     * @param \Spryker\Zed\PickingListMultiShipmentPickingStrategyExample\Dependency\Facade\PickingListMultiShipmentPickingStrategyExampleToShipmentFacadeInterface $shipmentFacade
-     * @param \Spryker\Zed\PickingListMultiShipmentPickingStrategyExample\Dependency\Service\PickingListMultiShipmentPickingStrategyExampleToShipmentServiceInterface $shipmentService
+     * @param \SprykerExample\Zed\PickingListMultiShipmentPickingStrategyExample\Dependency\Facade\PickingListMultiShipmentPickingStrategyExampleToShipmentFacadeInterface $shipmentFacade
+     * @param \SprykerExample\Zed\PickingListMultiShipmentPickingStrategyExample\Dependency\Service\PickingListMultiShipmentPickingStrategyExampleToShipmentServiceInterface $shipmentService
      */
     public function __construct(
         PickingListMultiShipmentPickingStrategyExampleToShipmentFacadeInterface $shipmentFacade,

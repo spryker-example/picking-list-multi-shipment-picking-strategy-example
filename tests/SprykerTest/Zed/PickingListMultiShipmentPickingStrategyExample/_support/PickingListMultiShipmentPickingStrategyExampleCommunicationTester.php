@@ -11,7 +11,7 @@ use Codeception\Actor;
 use Generated\Shared\DataBuilder\StockBuilder;
 use Generated\Shared\Transfer\StockTransfer;
 use Spryker\Zed\PickingListExtension\Dependency\Plugin\PickingListGeneratorStrategyPluginInterface;
-use Spryker\Zed\PickingListMultiShipmentPickingStrategyExample\Communication\Plugin\PickingList\MultiShipmentPickingListGeneratorStrategyPlugin;
+use SprykerExample\Zed\PickingListMultiShipmentPickingStrategyExample\Communication\Plugin\PickingList\MultiShipmentPickingListGeneratorStrategyPlugin;
 
 /**
  * Inherited Methods
